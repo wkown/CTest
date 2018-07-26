@@ -17,7 +17,9 @@ int main()
     pthread_attr_init(&attr);
     pthread_attr_setscope(&attr, PTHREAD_SCOPE_PROCESS);
     pthread_attr_setdetachstate(&attr, PTHREAD_CREATE_DETACHED);
+
     pthread_create(&pid, &attr, Function_t, NULL);
+    
     printf("======================================== \n");
     //getchar();
     pthread_attr_destroy(&attr);
