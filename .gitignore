@@ -2,3 +2,5 @@
 *.exe
 *.gch
 *.obj
+*.i64
+.vscode
