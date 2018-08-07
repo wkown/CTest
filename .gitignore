@@ -2,5 +2,10 @@
 *.exe
 *.gch
 *.obj
-*.i64
 .vscode
+
+# ida
+*.id*
+*.nam
+*.til
+*.i64
