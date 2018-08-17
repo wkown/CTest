@@ -8,4 +8,3 @@ int main(){
     heap_array[idx] = 40;
 
     return 0;
-}
