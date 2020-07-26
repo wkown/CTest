@@ -1,5 +1,6 @@
 .vscode/
 *.exe
+*.out
 *.gch
 *.obj
 .vscode
@@ -9,3 +10,4 @@
 *.nam
 *.til
 *.i64
+.DS_Store
